@@ -12,30 +12,40 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-    <script src="main.css"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light flexbox row">
-        <div class="container-fluid p-3 mx-3">
-            <a class="navbar-brand" href="#">Adriana Millares</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end align-content-left" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Software proyects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Contact</a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid row d-flex">
+            <div class="col-lg-4 col-m-6 col-s-12 d-flex">
+                <a class="navbar-brand" href="#">Adriana Millares</a>
+                <button class="navbar-toggler align-content-right justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col d-flex">
+                <div class="collapse navbar-collapse align-content-right justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
+    <div class="container-fluid about">
+        hola
+    </div>
 </body>
 </html>
